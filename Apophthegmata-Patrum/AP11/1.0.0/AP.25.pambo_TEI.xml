@@ -1,0 +1,242 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Apophthegmata Patrum Sahidic 25: Pambo</title>
+<author>anonymous</author>
+</titleStmt>
+<publicationStmt>
+<availability>
+<licence target="http://creativecommons.org/licenses/by/3.0/">Licensed under a Creative Commons-Attribution 3.0 licence.</licence>
+<licence target="http://coptic.pacific.edu">Coptic SCRIPTORIUM</licence>
+</availability>
+</publicationStmt>
+    <sourceDesc>
+        <msDesc>
+            <!--description of the entire manuscript codex-->
+            <msIdentifier>
+                <!--manuscript name corresponds to Tito Orlandi's and the CMCL's catalogue identifiers for White Monastery manuscripts-->
+                <msName>MONB.EG</msName>
+                <!--need altidno or other tag for Trismegistos number with link-->
+            </msIdentifier>
+            <!--need way to identify that this codex is a copy of the AP-->
+            <history>
+                <origin>
+                    <objectType>Codex</objectType>
+                    <country>Egypt</country>
+                    <placeName>Atripe</placeName>
+                    <origPlace>White Monastery</origPlace>
+                    <origDate> </origDate>
+                </origin>
+            </history>
+            <!--information about this fragment at its current repository-->
+            <msPart>
+                <msIdentifier>
+                    <repository>Österreichische Nationalbibliothek</repository>
+                    <collection>Papyrussammlung</collection>
+                    <idno>K 0321</idno>
+                </msIdentifier>
+                <msContents>
+                    <msItem>
+                        <textLang mainLang="cop">Sahidic Coptic</textLang>
+                        <msItem>
+                            <locus scheme="EG" from="67" to="67">67</locus>
+                            <locus scheme="ChaineNumbering" from="25" to="25">25</locus>
+                            <textLang mainLang="cop">Sahidic Coptic</textLang>
+                            <incipit></incipit>
+                            <title></title>
+                        </msItem>
+                        <incipit></incipit>
+                        <title></title>
+                    </msItem>
+                </msContents>
+            </msPart>
+        </msDesc>
+        <listBibl>
+            <bibl>
+                <author>Marius <surname>Chaîne</surname></author>
+                <title level="m">Le manuscrit de la version Copte en dialecte Sahidique des Apophthegmata Patrum</title>.
+                <pubPlace>Cairo</pubPlace>
+                <publisher>l’Institut français d’archéologie orientale</publisher>
+                <date>1960</date>
+            </bibl>
+        </listBibl>
+    </sourceDesc>
+</fileDesc>
+    <encodingDesc>
+        <p>This file is encoded to comply with EpiDoc Guidelines and Schema.<ref>http://www.stoa.org/epidoc/gl/5</ref></p>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <!--need an identifier for SAHIDIC dialect-->
+            <language ident="cop">Sahidic Coptic</language>
+        </langUsage>
+        <creation>
+            <title>Apophthegmata Patrum</title>
+            <date></date>
+        </creation>
+    </profileDesc>
+    <revisionDesc>
+        <change n="1.0.1" who="CarolineTSchroeder" when="2013-09-10">annotations, metadata</change>
+        <change n="1.0.1" who="LaurenMcDermott" when="2013-09-10">transcription, annotations, bibliography, metadata</change>
+        <change n="1.0.1" who="AmirZeldes" when="2013-09-10">linguistic annotations</change>
+        <change n="1.0.2" who="CarolineTSchroeder" when="2014-01-07">edited metadata for standardization</change>
+    </revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<phr>
+<w type="PPERI">
+<hi rend="red, tall">Ⲛ</hi>ⲧⲟϥ</w>
+</phr>
+<phr>
+<w type="ADV"> ⲟ̇ⲛ</w>
+</phr>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ϫⲟⲟ</w>
+<w type="PPERO"> ⲥ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<lb n="22"/>
+<phr>
+<w type="APST"> ⲁ̇</w>
+</phr>
+<phr>
+<w type="N"> ⲁ̇ⲡⲁ</w>
+</phr>
+<phr>
+<w type="NPROP"> ⲡⲁⲙⲃⲱ</w>
+</phr>
+<phr>
+<w type="V"> ϫⲟⲟ</w>
+<w type="PPERO"> ⲥ</w>
+</phr>
+<lb n="23"/>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<phr>
+<w type="PDEM"> ⲧⲁⲓ̇</w>
+</phr>
+<phr>
+<w type="COP"> ⲧⲉ</w>
+</phr>
+<phr>
+<w type="ART"> ⲑ</w>
+<w type="N"> ⲉ̇</w>
+</phr>
+<phr>
+<w type="CREL"> ⲉ̇ⲧⲉ</w>
+<w type="V"> ϣ̇<lb n="24"/>ϣⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇</w>
+<w type="ART"> ⲡ</w>
+<w type="N" xml:lang="Greek"> ⲙⲟⲛⲁⲭⲟⲥ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ</w>
+<lb n="25"/>
+<w type="V" xml:lang="Greek"> Ⲫⲟⲣⲉⲓ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="PPOS"> ⲛⲉϥ</w>
+<w type="N"> ϩⲟⲓ̇ⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+<hi rend="red">·</hi>
+</w>
+</phr>
+<lb n="26"/>
+<phr>
+<w type="CONJ"> ϩⲱⲥⲧⲉ</w>
+</phr>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="V"> ⲛⲉϫ</w>
+</phr>
+<phr>
+<w type="PPOS"> ⲧⲉϥ</w>
+<lb n="27"/>
+<w type="N"> ϣ̇ⲧⲏⲛ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙ̇</w>
+<w type="ART"> ⲡ̇</w>
+<w type="N"> ⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<lb n="28"/>
+<w type="PPOS"> ⲧⲉϥ</w>
+<w type="N"> ⲣⲓ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="NUM"> ϣⲟⲙⲛⲧ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<lb n="29"/>
+<w type="N"> ϩⲟⲟⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+<hi rend="red">.</hi>
+</w>
+</phr>
+<phr>
+<w type="ACONJ"> ⲛ̇ⲧⲉ</w>
+<w type="NEG"> ⲧⲙ̇</w>
+</phr>
+<phr>
+<w type="N"> ⲗⲁⲁⲩ</w>
+</phr>
+<lb n="30"/>
+<phr>
+<w type="V"> ⲧⲁⲓ̇ⲟ</w>
+<w type="PPERO"> ⲥ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇</w>
+<w type="V"> ϥⲓ̇ⲧ̇</w>
+<w type="PPERO"> ⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+<hi rend="red">·</hi>
+</w>
+</phr>
+<phr>
+<w type="ADV" xml:lang="Greek"> ⲧⲟⲧⲉ</w>
+</phr>
+<lb n="31"/>
+<phr>
+<w type="AOPT"> ⲉ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="AOPT"> ⲉ</w>
+<w type="V" xml:lang="Greek"> Ⲫⲟⲣⲓ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙ̇ⲙⲟ</w>
+<w type="PPERO"> ⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT"> ·</w>
+</phr>
+<lb n="32"/>
+<cb/>
+<pb/>
+</ab>
+</body>
+</text>
+</TEI>

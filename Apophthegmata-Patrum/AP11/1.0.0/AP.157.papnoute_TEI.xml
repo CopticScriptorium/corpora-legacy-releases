@@ -1,0 +1,672 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Apophthegmata Patrum Sahidic 157: Papnoute</title>
+<author>anonymous</author>
+</titleStmt>
+<publicationStmt>
+    <availability>
+        <licence target="http://creativecommons.org/licenses/by/3.0/">Licensed under a Creative Commons-Attribution 3.0 licence.</licence>
+        <licence target="http://coptic.pacific.edu">Coptic SCRIPTORIUM</licence>
+    </availability>
+</publicationStmt>
+<sourceDesc>
+    <msDesc>
+        <!--description of the entire manuscript codex-->
+        <msIdentifier>
+            <!--manuscript name corresponds to Tito Orlandi's and the CMCL's catalogue identifiers for White Monastery manuscripts-->
+            <msName>MONB.EG</msName>
+            <!--need altidno or other tag for Trismegistos number with link-->
+        </msIdentifier>
+        <!--need way to identify that this codex is a copy of the AP-->
+        <history>
+            <origin>
+                <objectType>Codex</objectType>
+                <country>Egypt</country>
+                <placeName>Atripe</placeName>
+                <origPlace>White Monastery</origPlace>
+                <origDate> </origDate>
+            </origin>
+        </history>
+        <!--information about this fragment at its current repository-->
+        <msPart>
+            <msIdentifier>
+                <repository>Biblioteca Nazionale di Napoli</repository>
+                <collection>Borgia Collection</collection> 
+                <idno>IB17 484 f. 29r</idno>
+            </msIdentifier>
+            <msContents>
+                <msItem>
+                    <locus scheme="EG" from="229" to="229">229</locus>
+                    <locus scheme="ChaineNumbering" from="157" to="157">157</locus>
+                    <textLang mainLang="cop">Sahidic Coptic</textLang>
+                    <incipit></incipit>
+                    <title></title>
+                </msItem>
+            </msContents>
+        </msPart>
+    </msDesc>
+    <listBibl>
+        <bibl>
+            <author>Marius<surname>Chaîne</surname></author>
+            <title level="m">Le manuscrit de la version Copte en dialecte Sahidique des Apophthegmata Patrum</title>.
+            <pubPlace>Cairo</pubPlace>
+            <publisher>l’Institut français d’archéologie orientale</publisher>
+            <date>1960</date>
+        </bibl>
+    </listBibl>
+</sourceDesc>
+</fileDesc>
+    <encodingDesc>
+        <p>This file is encoded to comply with EpiDoc Guidelines and Schema.<ref>http://www.stoa.org/epidoc/gl/5</ref></p>
+    </encodingDesc>
+<profileDesc>
+    <langUsage>
+        <!--need an identifier for SAHIDIC dialect-->
+        <language ident="cop">Sahidic Coptic</language>
+    </langUsage>
+<creation>
+<title>Apophthegmata Patrum</title>
+</creation>
+</profileDesc>
+<revisionDesc>
+<change n="1.0.1" who="JanetTimbie" when="2013-05-10">diplomatic text annotations</change>
+<change n="1.0.1" who="AmirZeldes" when="2013-05-10">text annotations, translation</change>
+<change n="1.0.1" who="CarolineTSchroeder" when="2013-05-10">annotations, metadata</change>
+<change n="1.0.2" who="CarolineTSchroeder" when="2013-09-10">annotations, metadata</change>
+<change n="1.0.2" who="LaurenMcDermott" when="2013-09-10">metadata</change>
+<change n="1.0.2" who="AmirZeldes" when="2013-09-10">linguistic annotations</change>
+<change n="1.0.3" who="CarolineTSchroeder" when="2014-01-07">edited metadata for standardization</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s>
+<phr>
+<w type="APST"> Ⲁ</w>
+<w type="PPERS"> ⲩ</w>
+<w type="V"> ϫⲟⲟ̇</w>
+<w type="PPERO"> ⲥ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇ⲧⲃⲉ</w>
+</phr>
+<phr>
+<w type="N"> ⲁ̇ⲡⲁ</w>
+</phr>
+<phr>
+<w type="NPROP"> ⲡⲁ̇ⲡ<lb n="9"/>ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<phr>
+<w type="ANEGAOR"> ⲙⲉ</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ϭⲉ<lb n="10"/>ⲡⲏ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇</w>
+<w type="V"> ⲥⲉ</w>
+<w type="N"> ⲏ̇ⲣⲡ̇</w>
+</phr>
+<phr>
+<w type="PUNCT"> .</w>
+<w> ⲻ</w>
+</phr>
+<lb n="11"/>
+</s>
+<s>
+<phr>
+<w type="CCIRC"> Ⲉ</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲙⲟⲟ̇ϣⲉ</w>
+</phr>
+<phr>
+<w type="PTC"> ⲇⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̅</w>
+<w type="ART"> ⲟⲩ</w>
+<w type="N"> ⲟⲩⲟ̇<lb n="12"/>ⲉⲓ̇ϣ</w>
+</phr>
+<phr>
+<w type="APST"> ⲁ</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲉⲓ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇ϫⲛ</w>
+</phr>
+<phr>
+<w type="ART"> ⲟⲩ</w>
+<lb n="13"/>
+<w type="N" xml:lang="Latin"> ⲕⲟⲗⲗⲩⲕⲓ̇ⲟⲛ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="N" xml:lang="Greek"> ⲗⲩⲥ<lb n="14"/>ⲧⲏⲥ</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="CONJ"> ⲁⲩⲱ̇</w>
+</phr>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ϭⲛ̇ⲧ</w>
+<w type="PPERO"> ⲟⲩ</w>
+</phr>
+<lb n="15"/>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="PPERS"> ⲩ</w>
+<w type="V"> ⲥⲱ</w>
+</phr>
+<phr>
+<w type="PUNCT"> .</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲥⲟⲩⲱⲛ</w>
+<w type="PPERO"> ϥ̇</w>
+</phr>
+<lb n="16"/>
+<phr>
+<w type="PTC"> Ⲇⲉ̇</w>
+</phr>
+<phr>
+<w type="PTC"> ⲛ̇ϭⲓ̇</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ</w>
+<w type="CREL"> ⲉⲧ</w>
+<w type="VSTAT"> ⲟ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ</w>
+<w type="N"> ⲁ̇ⲛϫⲱϫ</w>
+</phr>
+<lb n="17"/>
+</s>
+<s>
+<phr>
+<w type="CONJ"> ⲁⲩⲱ̇</w>
+</phr>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="PPERS"> ϥ̇</w>
+<w type="V"> ⲥⲟⲟ̇ⲩⲛ̇</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ̇</w>
+</phr>
+<lb n="18"/>
+<phr>
+<w type="ANEGAOR"> ⲙⲉ</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲥⲉ</w>
+</phr>
+<phr>
+<w type="N"> ⲏ̇ⲣⲡ̇</w>
+</phr>
+<phr>
+<w type="PUNCT"> ·</w>
+<w> ⲻ</w>
+</phr>
+<lb n="19"/>
+</s>
+<s>
+<phr>
+<w type="APST"> Ⲁ</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲛⲁⲩ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇ⲣⲟ</w>
+<w type="PPERO"> ϥ</w>
+</phr>
+<phr>
+<w type="PREP"> ϩⲛ̇</w>
+</phr>
+<phr>
+<w type="ART"> ⲟⲩ</w>
+<w type="N"> ⲛⲟϭ</w>
+</phr>
+<lb n="20"/>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="N"> ϩⲓⲥⲉ</w>
+</phr>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲙⲟⲩϩ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ</w>
+<w type="ART"> ⲟⲩ</w>
+<lb n="21"/>
+<w type="N"> ⲁ̇ⲡⲟⲧ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ</w>
+<w type="N"> ⲏⲣ̇ⲡ̇</w>
+</phr>
+<phr>
+<w type="CCIRC"> ⲉ̇ⲣⲉ</w>
+</phr>
+<phr>
+<w type="PPOS"> ⲧⲉϥ</w>
+<lb n="22"/>
+<w type="N"> ⲥⲏϥⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ϩⲛ̇</w>
+</phr>
+<phr>
+<w type="PPOS"> ⲧⲉϥ</w>
+<w type="N"> ϭⲓ̇ϫ</w>
+</phr>
+<phr>
+<w type="PUNCT"> ·</w>
+</phr>
+<lb n="23"/>
+<phr>
+<w type="CONJ"> ⲁⲩⲱ̇</w>
+</phr>
+<phr>
+<w type="VBD"> ⲡⲉϫⲁ</w>
+<w type="PPERS"> ϥ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙ̇</w>
+<w type="ART"> ⲡ̇</w>
+<w type="N"> ϩⲗ̇<lb n="24"/>ⲗⲟ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="PPERS"> ⲕ</w>
+<w type="NEG"> ⲧⲙ̇</w>
+<w type="V"> ⲥⲱ</w>
+</phr>
+<phr>
+<w type="PPERS"> ϯ̇</w>
+<lb n="25"/>
+<w type="FUT"> ⲛⲁ</w>
+<w type="V"> ϩⲟⲧⲃⲉ</w>
+<w type="PPERO"> ⲕ</w>
+</phr>
+<phr>
+<w type="PUNCT"> .ⲻ</w>
+</phr>
+<lb n="26"/>
+</s>
+<s>
+<phr>
+<w type="APST"> Ⲁ</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲉⲓⲙⲉ</w>
+</phr>
+<phr>
+<w type="PTC"> ⲛ̇ϭⲓ̇</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ̇</w>
+<w type="N"> ϩⲗ̇ⲗⲟ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<lb n="27"/>
+<phr>
+<w type="CFOC"> ⲉ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲟⲩⲱ̇ϣ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇</w>
+<w type="V"> ⲉⲓ̇ⲣⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ</w>
+<w type="ART"> ⲟⲩ</w>
+<w type="N" xml:lang="Greek"> ⲛ̇<lb n="28"/>ⲧⲟⲗⲏ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇ⲧⲉ</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ̇</w>
+<w type="N"> ⲛⲟⲩⲧⲉ</w>
+</phr>
+<lb n="29"/>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲟⲩⲱ̇ϣ</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="PREP"> ⲉ̇</w>
+<w type="V"> ϯ̇</w>
+<w type="N"> ϩⲏⲩ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙ̇<lb n="30"/>ⲙⲟ</w>
+<w type="PPERO"> ϥ</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ϫⲓ̇ⲧ</w>
+<w type="PPERO"> ϥ̇</w>
+</phr>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲥⲟ̇ⲟ</w>
+<w type="PPERO"> ϥ̇</w>
+</phr>
+<phr>
+<w type="PUNCT"> .</w>
+</phr>
+</s>
+<lb n="31"/>
+<s>
+<phr>
+<w type="ART"> Ⲡ</w>
+<w type="N"> ⲁⲛϫⲱϫ</w>
+</phr>
+<phr>
+<w type="PTC"> ⲇⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="N" xml:lang="Greek"> ⲗⲩⲥ<lb n="32"/>ⲧⲏⲥ</w>
+</phr>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V" xml:lang="Greek"> ⲙⲉⲧⲁⲛⲟⲓ</w>
+</phr>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="PPERS"> ϥ</w>
+<lb n="33"/>
+<w type="V"> ϫⲱ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙ̇ⲙⲟ</w>
+<w type="PPERO"> ⲥ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="V"> ⲕⲱ</w>
+</phr>
+<lb n="34"/>
+<phr>
+<w type="PREP"> ⲛⲁ</w>
+<w type="PPERO"> ⲓ̇</w>
+</phr>
+<phr>
+<w type="ADV"> ⲉ̇ⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PPOS"> ⲡⲁ</w>
+<w type="N"> ⲉⲓ̇ⲱⲧ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<lb n="35"/>
+<phr>
+<w type="APST"> ⲁ</w>
+<w type="PPERS"> ⲓ̇</w>
+<w type="V"> ϯ̇</w>
+<w type="N"> ϩⲓ̈ⲥⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛⲁ</w>
+<w type="PPERO"> ⲕ</w>
+</phr>
+<phr>
+<w type="PUNCT"> .ⲻ</w>
+</phr>
+<lb n="36"/>
+</s>
+<s>
+<phr>
+<w type="VBD"> Ⲡⲉϫⲁ</w>
+<w type="PPERS"> ϥ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛⲁ</w>
+<w type="PPERO"> ϥ</w>
+</phr>
+<phr>
+<w type="PTC"> ⲛ̇ϭⲓ̇</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ̇</w>
+<w type="N"> ϩⲗ̇<lb n="37"/>ⲗⲟ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="PPERS"> ϯ̇</w>
+<w type="V" xml:lang="Greek"> ⲡⲓⲥⲧⲉⲩⲉ</w>
+</phr>
+<lb n="38"/>
+<phr>
+<w type="PREP"> ⲉ̇</w>
+<w type="ART"> ⲡ</w>
+<w type="N"> ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<phr>
+<w type="PPERS"> ϥ̇</w>
+<w type="FUT"> ⲛⲁ</w>
+<w type="V"> ⲉⲓ̇<lb n="39"/>ⲣⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛⲁ</w>
+<w type="PPERO"> ⲕ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ</w>
+<w type="ART"> ⲟⲩ</w>
+<w type="N"> ⲛⲁ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇ⲧⲃⲉ</w>
+</phr>
+<lb n="40"/>
+<phr>
+<w type="PDEM"> ⲡⲉⲓ</w>
+<w type="N"> ⲁ̇ⲡⲟⲧ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ</w>
+<w type="N"> ⲏⲣⲡ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ϩⲙ̇</w>
+</phr>
+<lb n="41"/>
+<phr>
+<w type="PDEM"> ⲡⲉⲓ̇</w>
+<w type="N"> ⲱ̇ⲛϩ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙⲛ</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ</w>
+<w type="CREL"> ⲉⲧ</w>
+<w type="VSTAT"> ⲛⲏⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT"> .</w>
+</phr>
+<lb n="42"/>
+</s>
+<cb/>
+<s>
+<phr>
+<w type="VBD"> Ⲡⲉϫⲁ</w>
+<w type="PPERS"> ϥ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛⲁ</w>
+<w type="PPERO"> ϥ</w>
+</phr>
+<phr>
+<w type="PTC"> ⲛ̇ϭⲓ̇</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ</w>
+<w type="N" xml:lang="Greek"> ⲁⲣ<lb n="1"/>ⲭⲏⲗⲏⲥⲧⲏⲥ</w>
+</phr>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="PPERS"> ϯ</w>
+<lb n="2"/>
+<w type="V"> ⲡⲓ̇ⲥⲧⲉⲩⲉ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇</w>
+<w type="ART"> ⲡ</w>
+<w type="N"> ⲛⲟⲩⲧⲉ</w>
+</phr>
+<lb n="3"/>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ϫⲓ̇ⲛ</w>
+</phr>
+<phr>
+<w type="ADV"> ⲧⲉⲛⲟⲩ</w>
+</phr>
+<phr>
+<w type="NEG"> ⲛ̇</w>
+<w type="PPERS"> ϯ̇</w>
+<lb n="4"/>
+<w type="FUT"> ⲛⲁ</w>
+<w type="V"> ⲣ̇</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ</w>
+<w type="CREL"> ⲉⲑ</w>
+<w type="VSTAT"> ⲟⲟⲩ</w>
+</phr>
+<phr>
+<w type="NEG"> ⲁ̇ⲛ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="N"> ⲗⲁⲁⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT"> .</w>
+</phr>
+<lb n="5"/>
+</s>
+<s>
+<phr>
+<w type="ART"> Ⲡ</w>
+<w type="N"> ϩⲗ̇ⲗⲟ</w>
+</phr>
+<phr>
+<w type="PTC"> ⲇⲉ</w>
+</phr>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ϫⲡⲟ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛⲁ</w>
+<w type="PPERO"> ϥ</w>
+</phr>
+<lb n="6"/>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="ART"> ⲧ̇</w>
+<w type="N" xml:lang="Latin"> ⲕⲟⲗⲗⲩϭⲉ</w>
+</phr>
+<phr>
+<w type="Q"> ⲧⲏ̇ⲣ</w>
+<w type="PPERO"> ⲥ̇</w>
+</phr>
+<lb n="7"/>
+</s>
+<s>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<phr>
+<w type="APST"> ⲁ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲕⲱ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇ⲥⲱ</w>
+<w type="PPERO"> ϥ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙ̇</w>
+<lb n="8"/>
+<w type="PPOS"> ⲡⲉϥ</w>
+<w type="N"> ⲟⲩⲱ̇ϣ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲉ̇ⲧ̇ⲃⲉ</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ̇</w>
+<lb n="9"/>
+<w type="N"> ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT"> .</w>
+<w> ⲻ</w>
+</phr>
+<lb n="10"/>
+</s>
+<cb/>
+<pb/>
+</ab>
+</body>
+</text>
+</TEI>

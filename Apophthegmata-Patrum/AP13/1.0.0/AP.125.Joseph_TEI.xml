@@ -1,0 +1,84 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Apophthegmata Patrum Sahidic 125: Joseph</title>
+                <author>anonymous</author>
+            </titleStmt>
+            <publicationStmt>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">Licensed under a Creative Commons-Attribution 3.0 licence.</licence>
+                    <licence target="http://coptic.pacific.edu">Coptic SCRIPTORIUM</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <!--description of the entire manuscript codex-->
+                    <msIdentifier>
+                        <!--manuscript name corresponds to Tito Orlandi's and the CMCL's catalogue identifiers for White Monastery manuscripts-->
+                        <msName>MONB.EG</msName>
+                        <!--need altidno or other tag for Trismegistos number with link-->
+                    </msIdentifier>
+                    <!--need way to identify that this codex is a copy of the AP-->
+                    <history>
+                        <origin>
+                            <objectType>Codex</objectType>
+                            <country>Egypt</country>
+                            <placeName>Atripe</placeName>
+                            <origPlace>White Monastery</origPlace>
+                            <origDate> </origDate>
+                        </origin>
+                    </history>
+                    <!--information about this fragment at its current repository-->
+                    <msPart>
+                        <msIdentifier>
+                            <repository>Biblioteca Nazionale di Napoli</repository>
+                            <collection>Borgia Collection</collection> 
+                            <idno>IB17 484 f. 25r</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus scheme="EG" from="205" to="205">205</locus>
+                                <locus scheme="ChaineNumbering" from="125" to="125">114</locus>
+                                <textLang mainLang="cop">Sahidic Coptic</textLang>
+                                <incipit></incipit>
+                                <title></title>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <author>Marius<surname>Chaîne</surname></author>
+                        <title level="m">Le manuscrit de la version Copte en dialecte Sahidique des Apophthegmata Patrum</title>.
+                        <pubPlace>Cairo</pubPlace>
+                        <publisher>l’Institut français d’archéologie orientale</publisher>
+                        <date>1960</date>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This file is encoded to comply with EpiDoc Guidelines and Schema.<ref>http://www.stoa.org/epidoc/gl/5</ref></p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <!--need an identifier for SAHIDIC dialect-->
+                <language ident="cop">Sahidic Coptic</language>
+            </langUsage>
+            <creation>
+                <title>Apophthegmata Patrum</title>
+            </creation>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0.1" who="ChristineLuckritzMarquis" when="2014-05-16">diplomatic text annotations, linguistic annotations</change>
+            <change n="1.0.1" who="RebeccaKrawiec" when="2014-05-16">diplomatic text annotations, linguistic annotations</change>
+            <change n="1.0.1" who="CarolineTSchroeder" when="2014-05-16">metadata</change>
+            <change n="1.0.1" who="AmirZeldes" when="2014-05-16">text diplomatic text annotations, linguistic annotations, translation</change>
+        </revisionDesc>
+    </teiHeader><text>
+<body></body>
+</text>
+</TEI>

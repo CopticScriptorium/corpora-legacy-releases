@@ -1,0 +1,85 @@
+<?oxygen 
+    RNGSchema="http://www.stoa.org/epidoc/schema/latest"
+?>
+<?xml-model 
+    href="http://www.stoa.org/epidoc/schema/latest"
+?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Apophtegmata Patrum Sahidic 157: Papnoute</title>
+<author>anonymous</author>
+</titleStmt>
+<publicationStmt>
+<!--do we need to enter an idno here? such as <idno type="filename">blahblah</idno> -->
+<availability>
+<licence
+target="http://creativecommons.org/licenses/by/3.0/"> Licensed under a Creative Commons-Attribution 3.0 licence.
+</licence>
+<licence target="http://www.carrieschroeder.com/scriptorium">Coptic SCRIPtorIuM</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>Chaîne, Marius. Le manuscrit de la version Copte en dialecte Sahidique des Apophthegmata Patrum. Cairo: Impr. de l’Institut français d’archéologie orientale, 1960.
+</bibl>
+<msDesc> 
+<msIdentifier>
+<repository>Biblioteca Nazionale di Napoli</repository>
+<!--Would like to separate out the page numbers if possible.-->
+<idno>Borgia Collection IB17 484 f. 29r</idno>
+<!--Would like to separate out the page numbers if possible.-->
+<msName>MONB.EG 229</msName>
+</msIdentifier>
+<history>
+<origin>
+<objectType>Codex</objectType>
+<country>Egypt</country>
+<placeName>Atripe</placeName>
+<origPlace>The White Monastery</origPlace>
+<origDate ></origDate>
+</origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<p>
+This file is a work in progress encoded to comply with EpiDoc Guidelines and Schema.
+<ref>http://www.stoa.org/epidoc/gl/5</ref>
+</p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="cop">Sahidic Coptic</language>
+</langUsage>
+<creation>
+<title>Apophthegmata Patrum</title>
+</creation>
+</profileDesc>
+<revisionDesc>
+<!--Revisit the following re documenting annotations-->
+<change who="JanetTimbie">Janet Timbie: diplomatic text annotations</change>
+<change who="AmirZeldes">Amir Zeldes: text annotations, translation</change>
+<change who="CarolineTSchroeder" when="2013-05-10">Caroline T. Schroeder: text annotations, metadata</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>Ⲁⲩϫⲟⲟ̇ⲥⲉ̇ⲧⲃⲉⲁ̇ⲡⲁⲡⲁ̇ⲡ<lb/>ⲛⲟⲩⲧⲉϫⲉⲙⲉϥϭⲉ<lb/>ⲡⲏⲉ̇ⲥⲉⲏ̇ⲣⲡ̇.ⲻ<lb/>Ⲉϥⲙⲟⲟ̇ϣⲉⲇⲉ
+ⲛ̅ⲟⲩⲟⲩⲟ̇<lb/>ⲉⲓ̇ϣⲁϥⲉⲓ̇ⲉ̇ϫⲛⲟⲩ<lb/>ⲕⲟⲗⲗⲩⲕⲓ̇ⲟⲛⲛ̇ⲗⲩⲥ<lb/>ⲧⲏⲥⲁⲩⲱ̇ⲁ̇ϥϭⲛ̇ⲧⲟⲩ<lb/>ⲉ̇ⲩ
+ⲥⲱ.ⲁ̇ϥⲥⲟⲩⲱⲛϥ̇<lb/>Ⲇⲉ̇ⲛ̇ϭⲓ̇ⲡⲉⲧⲟⲛⲁ̇ⲛϫⲱϫ<lb/>ⲁⲩⲱ̇ⲉ̇ϥ̇ⲥⲟⲟ̇ⲩⲛ̇ϫⲉ̇<lb/>ⲙⲉϥⲥⲉⲏ̇ⲣⲡ̇
+·ⲻ<lb/>Ⲁϥⲛⲁⲩⲉ̇ⲣⲟϥϩⲛ̇ⲟⲩⲛⲟϭ<lb/>ⲛ̇ϩⲓⲥⲉⲁ̇ϥⲙⲟⲩϩⲛⲟⲩ<lb/>ⲁ̇ⲡⲟⲧⲛⲏⲣ̇ⲡ̇ⲉ̇ⲣⲉⲧⲉϥ<lb/>
+ⲥⲏϥⲉϩⲛ̇ⲧⲉϥϭⲓ̇ϫ·<lb/>ⲁⲩⲱ̇ⲡⲉϫⲁϥⲙ̇ⲡ̇ϩⲗ̇<lb/>ⲗⲟϫⲉⲉ̇ⲕⲧⲙ̇ⲥⲱϯ̇<lb/>ⲛⲁϩⲟⲧⲃⲉⲕ.ⲻ<lb/>
+Ⲁϥⲉⲓⲙⲉⲛ̇ϭⲓ̇ⲡ̇ϩⲗ̇ⲗⲟϫⲉ<lb/>ⲉ̇ϥⲟⲩⲱ̇ϣⲉ̇ⲉⲓ̇ⲣⲉⲛⲟⲩⲛ̇<lb/>ⲧⲟⲗⲏ̇ⲛ̇ⲧⲉⲡ̇ⲛⲟⲩⲧⲉ<lb/>ⲉ̇ϥ
+ⲟⲩⲱ̇ϣⲉ̇ϯ̇ϩⲏⲩⲙ̇<lb/>ⲙⲟϥⲁ̇ϥϫⲓ̇ⲧϥ̇ⲁ̇ϥⲥⲟ̇ⲟϥ̇.<lb/>Ⲡⲁⲛϫⲱϫⲇⲉⲛ̇ⲗⲩⲥ<lb/>ⲧⲏⲥⲁ̇ϥ
+ⲙⲉⲧⲁⲛⲟⲓⲉ̇ϥ<lb/>ϫⲱⲙ̇ⲙⲟⲥϫⲉⲕⲱ<lb/>ⲛⲁⲓ̇ⲉ̇ⲃⲟⲗⲡⲁⲉⲓ̇ⲱⲧϫⲉ<lb/>ⲁⲓ̇ϯ̇ϩⲓ̈ⲥⲉⲛⲁⲕ.ⲻ<lb/>
+Ⲡⲉϫⲁϥⲛⲁϥⲛ̇ϭⲓ̇ⲡ̇ϩⲗ̇<lb/>ⲗⲟϫⲉϯ̇ⲡⲓⲥⲧⲉⲩⲉ<lb/>ⲉ̇ⲡⲛⲟⲩⲧⲉϫⲉϥ̇ⲛⲁⲉⲓ̇<lb/>ⲣⲉⲛⲁⲕⲛⲟⲩⲛⲁ ⲉ̇ⲧⲃⲉ<lb/>ⲡⲉⲓⲁ̇ⲡⲟⲧⲛⲏⲣⲡ̇ϩⲙ̇<lb/>ⲡⲉⲓ̇ⲱ̇ⲛϩ̇ⲙⲛⲡⲉⲧⲛⲏⲩ.<lb/>
+<cb/>Ⲡⲉϫⲁϥⲛⲁϥⲛ̇ϭⲓ̇ⲡⲁⲣ<lb/>ⲭⲏⲗⲏⲥⲧⲏⲥϫⲉϯ<lb/>ⲡⲓ̇ⲥⲧⲉⲩⲉ̇ⲉ̇ⲡⲛⲟⲩⲧⲉ<lb/>ϫⲉϫⲓ̇ⲛⲧⲉⲛⲟⲩⲛ̇
+ϯ̇<lb/>ⲛⲁⲣ̇ⲡⲉⲑⲟⲟⲩⲁ̇ⲛⲛ̇ⲗⲁⲁⲩ.<lb/>Ⲡϩⲗ̇ⲗⲟⲇⲉⲁ̇ϥϫⲡⲟⲛⲁϥ<lb/>ⲛ̇ⲧ̇ⲕⲟⲗⲗⲩϭⲉⲧⲏ̇ⲣⲥ̇ <lb/>ϫⲉⲁ̇ϥⲕⲱⲛ̇ⲥⲱϥⲙ̇<lb/>ⲡⲉϥⲟⲩⲱ̇ϣⲉ̇ⲧ̇ⲃⲉⲡ̇<lb/>ⲛⲟⲩⲧⲉ.ⲻ<lb/>
+<cb/>
+<pb/>
+</ab>
+</body>
+</text>
+</TEI>

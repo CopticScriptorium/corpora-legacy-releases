@@ -1,0 +1,233 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Apophtegmata Patrum Sahidic 172: Antonius</title>
+<author>anonymous</author>
+</titleStmt>
+<publicationStmt>
+<availability>
+<licence target="http://creativecommons.org/licenses/by/3.0/">Licensed under a Creative
+Commons-Attribution 3.0 licence.</licence>
+<licence target="http://coptic.pacific.edu">Coptic SCRIPTORIUM</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<author>Marius <surname>Chaîne</surname></author>
+<title>Le manuscrit de la version Copte en dialecte Sahidique des Apophthegmata Patrum</title>.
+<pubPlace>Cairo</pubPlace>
+<publisher>l’Institut français d’archéologie orientale</publisher>
+<date>1960</date>
+</bibl>
+<msDesc>
+<msIdentifier>
+<repository>Biblioteca Nazionale di Napoli</repository>
+<idno>Borgia Collection IB17 f. 31v</idno>
+<msName>MONB.EG</msName>
+<altIdentifier>
+<!--altIdentifier/idno signifies the original page numbers of the manuscript.-->
+<idno>234</idno>
+</altIdentifier>
+</msIdentifier>
+<history>
+<origin>
+<objectType>Codex</objectType>
+<country>Egypt</country>
+<placeName>Atripe</placeName>
+<origPlace>The White Monastery</origPlace>
+<origDate/>
+</origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<p> This file is a work in progress encoded to comply with EpiDoc Guidelines and Schema.
+<ref>http://www.stoa.org/epidoc/gl/5</ref>
+</p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="cop">Sahidic Coptic</language>
+</langUsage>
+<creation>
+<title>Apophthegmata Patrum</title>
+</creation>
+</profileDesc>
+<revisionDesc>
+<change n="1.0.1" who="JanetTimbie" when="2013-05-10">diplomatic text annotations</change>
+<change n="1.0.1" who="AmirZeldes" when="2013-05-10">text annotations, translation</change>
+<change n="1.0.1" who="CarolineTSchroeder" when="2013-05-10">annotations, metadata</change>
+<change n="1.0.2" who="CarolineTSchroeder" when="2013-09-10">annotations, metadata</change>
+<change n="1.0.2" who="LaurenMcDermott" when="2013-09-10">metadata</change>
+<change n="1.0.2" who="AmirZeldes" when="2013-09-10">annotations</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>
+<s>
+<phr>
+<w type="APST">
+<hi rend="extralarge illuminated red capital">Ⲁ</hi>
+</w>
+<hi rend="dark red, large">
+<w type="PPERS"> ⲩ</w>
+<w type="V"> ϭⲱⲗⲡ̇</w>
+</hi>
+</phr>
+<lb n="4"/>
+<phr>
+<w type="ADV"> ⲉ̇ⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ</w>
+<w type="N"> ⲁⲡⲁ</w>
+</phr>
+<phr>
+<w type="NPROP"> ⲁ̇ⲛ<lb n="5"/>ⲧⲱⲛⲓ̇ⲟⲥ</w>
+</phr>
+<phr>
+<w type="PREP"> ϩⲓ̇</w>
+</phr>
+<phr>
+<w type="ART"> ⲡ̇</w>
+<w type="N"> ϫⲁⲓ̇ⲉ̇</w>
+</phr>
+<phr>
+<w type="PUNCT"> ·</w>
+</phr>
+<lb n="6"/>
+</s>
+<s>
+<phr>
+<w type="CONJ"> ϫⲉ</w>
+</phr>
+<phr>
+<w type="EXIST"> ⲟⲩⲛ</w>
+</phr>
+<phr>
+<w type="NUM"> ⲟⲩⲁ̇</w>
+</phr>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="N"> ⲉⲓⲛⲉ̇</w>
+</phr>
+<lb n="7"/>
+<phr>
+<w type="PREP"> ⲙ̇ⲙⲟ</w>
+<w type="PPERO"> ⲕ</w>
+</phr>
+<phr>
+<w type="PREP"> ϩⲛ̇</w>
+</phr>
+<phr>
+<w type="ART"> ⲧ̇</w>
+<w type="N" xml:lang="Greek"> ⲡⲟⲗⲓⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT"> ·</w>
+</phr>
+<lb n="8"/>
+</s>
+<s>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="ART"> ⲩ</w>
+<w type="N"> ⲥⲁⲉⲓ̈ⲛ</w>
+</phr>
+<phr>
+<w type="COP"> ⲡⲉ</w>
+</phr>
+<phr>
+<w type="PREP"> ϩⲛ̇</w>
+</phr>
+<phr>
+<w type="PPOS"> ⲧⲉϥ</w>
+<lb n="9"/>
+<w type="N" xml:lang="Greek"> ⲧⲉⲭⲛⲉ</w>
+</phr>
+</s>
+<s>
+<phr>
+<w type="PUNCT">
+<hi rend="space to the right">·</hi>
+</w>
+</phr>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ϯ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙ̇</w>
+<w type="PPOS"> ⲡⲉϥ</w>
+<lb n="10"/>
+<w type="N"> ϩⲟⲩⲟ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="ART"> ⲛ</w>
+<w type="CREL"> ⲉⲧ</w>
+<w type="VSTAT"> ϣⲁⲁ̇ⲧ</w>
+</phr>
+<phr>
+<w type="PUNCT"> ·</w>
+</phr>
+<lb n="11"/>
+</s>
+<s>
+<phr>
+<w type="CONJ"> ⲁⲩⲱ̇</w>
+</phr>
+<phr>
+<w type="AAOR"> ϣⲁ</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ⲣ̄</w>
+</phr>
+<phr>
+<w type="ART"> ⲡⲉ</w>
+<w type="N"> ϩⲟⲟⲩ</w>
+</phr>
+<lb n="12"/>
+<phr>
+<w type="Q"> ⲧⲏⲣ</w>
+<w type="PPERO"> ϥ̇</w>
+</phr>
+<phr>
+<w type="CCIRC"> ⲉ̇</w>
+<w type="PPERS"> ϥ</w>
+<w type="V"> ϫⲱ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙ̇</w>
+<w type="ART"> ⲡ̇</w>
+<w type="NUM"> ϣⲟ<lb n="13"/>ⲙⲛⲧ̇</w>
+</phr>
+<phr>
+<w type="PREP"> ⲛ̇</w>
+<w type="N" xml:lang="Greek"> ϩⲁⲅⲓ̈ⲟⲥ</w>
+</phr>
+<phr>
+<w type="PREP"> ⲙⲛ̇</w>
+</phr>
+<lb n="14"/>
+<phr>
+<w type="ART"> ⲛ</w>
+<w type="N" xml:lang="Greek"> ⲁⲅⲅⲉⲗⲟⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT"> .</w>
+<w> ⲻ</w>
+</phr>
+<lb n="15"/>
+</s>
+<pb/>
+</ab>
+</body>
+</text>
+</TEI>

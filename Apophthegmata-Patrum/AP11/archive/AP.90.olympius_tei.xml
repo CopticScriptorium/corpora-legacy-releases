@@ -1,0 +1,82 @@
+<?oxygen 
+    RNGSchema="http://www.stoa.org/epidoc/schema/latest"
+?>
+<?xml-model 
+    href="http://www.stoa.org/epidoc/schema/latest"
+?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Apophtegmata Patrum Sahidic 90: Olympius</title>
+<author>anonymous</author>
+</titleStmt>
+<publicationStmt>
+<!--do we need to enter an idno here? such as <idno type="filename">blahblah</idno> -->
+<availability>
+<licence
+target="http://creativecommons.org/licenses/by/3.0/"> Licensed under a Creative Commons-Attribution 3.0 licence.
+</licence>
+<licence target="http://www.carrieschroeder.com/scriptorium">Coptic SCRIPtorIuM</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>Chaîne, Marius. Le manuscrit de la version Copte en dialecte Sahidique des Apophthegmata Patrum. Cairo: Impr. de l’Institut français d’archéologie orientale, 1960.
+</bibl>
+<msDesc> 
+<msIdentifier>
+<repository>Österreichische Nationalbibliothek</repository>
+<!--Would like to separate out the page numbers if possible.-->
+<idno>K 09563</idno>
+<!--Would like to separate out the page numbers if possible.-->
+<msName>MONB.EG 61</msName>
+</msIdentifier>
+<history>
+<origin>
+<objectType>Codex</objectType>
+<country>Egypt</country>
+<placeName>Atripe</placeName>
+<origPlace>The White Monastery</origPlace>
+<origDate ></origDate>
+</origin>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<p>
+This file is a work in progress encoded to comply with EpiDoc Guidelines and Schema.
+<ref>http://www.stoa.org/epidoc/gl/5</ref>
+</p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="cop">Sahidic Coptic</language>
+</langUsage>
+<creation>
+<title>Apophthegmata Patrum</title>
+</creation>
+</profileDesc>
+<revisionDesc>
+<!--Revisit the following re documenting annotations-->
+<change who="JanetTimbie">Janet Timbie: diplomatic text annotations</change>
+<change who="AmirZeldes">Amir Zeldes: text annotations, translation</change>
+<change who="CarolineTSchroeder" when="2013-05-10">Caroline T. Schroeder: text annotations, metadata</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<ab>…ⲛⲟⲩⲁⲛ̇ⲛ̇ϩⲗ̇ⲗⲟ·<lb/>..ⲙ.ⲁϥⲛⲁⲩⲉⲧⲉϥ<lb/>[ϭⲓ]ⲛⲱ̇ⲛⲁϩ·ⲁⲩⲱ<lb/>[ⲡ]ⲉϫⲁϥⲛⲁϥϫⲉ
+ⲉ̇ⲧⲉ<lb/>ⲧⲛ̇ⲛⲁⲩⲁⲛⲉⲗⲁⲁⲩⲉ̇ⲃⲟⲗ<lb/>ϩⲓⲧⲛⲡⲉⲧⲛ̇ⲛⲟⲩⲧⲉ.<lb/>ⲡⲉϫⲁϥϫⲉⲙⲙⲟⲛ.ⲻ<lb/>Ⲡⲉϫⲁϥ
+ⲛ̇ϭⲓⲡϩⲓⲉⲣⲉⲩⲥ̇<lb/>ϫⲉⲁ̇ⲛⲟⲛϩⲉⲛⲕⲟⲩⲓ̈<lb/>ⲛ̇ⲗⲓⲧⲟⲩⲣⲅⲓ̇ⲁ̇ⲛⲉ<lb/>ⲧⲛ̇ⲉⲓⲣⲉⲙ̇ⲙⲟⲟⲩ·<lb/>ⲁⲩⲱ̇
+ⲙ̇ⲙⲩⲥⲧⲏⲣⲓ̈ⲟⲛ<lb/>ϭⲟⲗⲡ̇ⲛⲁⲛⲉ̇ⲃⲟⲗ.ⲻ<lb/>Ⲁⲩⲱ̇ⲛ̇ⲧⲱⲧⲛ̇ⲧⲉ<lb/>ⲧ̇ⲛ̇ⲉⲓ̈ⲣⲉⲛ̇ⲛⲉⲓ̈ϩⲓⲥⲉⲛ̇
+<lb/>ⲧⲉⲓ̈ϭⲟⲧ.ⲻ<lb/>Ⲛⲉⲓ̇ⲟⲩϣⲏⲛ̇ⲣⲟⲉⲓ̈ⲥ·<lb/>ⲙⲛ̇ⲛⲉⲓ̇ⲁ̇ⲥⲕⲏⲥⲓⲥ·<lb/>ⲙⲛ̇ⲡⲉⲓ̇ⲥ̇ϭⲣⲁϩⲧ̇·ⲻ
+<lb/>Ⲁⲩⲱ̇ⲧⲉⲧⲛ̇ϫⲱⲙ̇<lb/>ⲙⲟⲥϫⲉⲙⲛ̇ⲧⲁⲛⲗⲁ<lb/>ⲁⲩⲙ̇ⲙⲉⲉⲩⲉⲉϥϩⲟⲟⲩ<lb/>ϩⲙ̇ⲡⲉⲛϩⲏⲧ·ⲻ
+<lb/>Ⲁⲩⲱ̇ⲟ̇ⲛⲡⲉⲧⲡⲱⲣ̇ϫ<lb/>ⲙ̇ⲙⲱⲧⲛ̇ⲉⲡⲉⲧⲛ̇<lb/>ⲛⲟⲩⲧⲉ·<lb/>ⲛ̇ϥϭⲱⲗⲡ̇ⲁ̇ⲛⲉⲣⲱ<lb/>ⲧⲛ̇ⲛ̇
+ⲛⲉϥⲙⲩⲥⲧⲏⲣⲓ̈<lb/>ⲟⲛ.ⲛ̇ⲧⲉⲣⲟⲩ<lb/>ⲥⲱⲧⲙ̇ⲇⲉⲛ̇ϭⲓ̇ⲛ̇ⲉⲛ<lb/>ⲉⲓ̇ⲟ̇ⲧⲉⲁ̇ⲩⲣ̇ϣ̇ⲡⲏⲣⲉ<lb/>ⲁⲩⲱ̇
+ⲡⲉϫⲁⲩϫⲉⲙ̇<lb/>ⲙⲉⲉ̇ⲩⲉ̇ⲉ̇ⲑⲟⲟⲩⲛⲁⲙⲉ<lb/>ⲛⲉϣⲁⲩⲡⲟⲣϫ̇ⲛ̇ⲉ̇ⲡ<lb/>ⲛⲟⲩⲧⲉ.ⲻ<lb/>
+<pb/>
+</ab>
+</body>
+</text>
+</TEI>

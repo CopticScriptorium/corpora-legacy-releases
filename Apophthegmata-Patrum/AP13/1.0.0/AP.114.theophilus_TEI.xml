@@ -1,0 +1,295 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Apophthegmata Patrum Sahidic 114: Theophilus</title>
+                <author>anonymous</author>
+            </titleStmt>
+            <publicationStmt>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">Licensed under a Creative Commons-Attribution 3.0 licence.</licence>
+                    <licence target="http://coptic.pacific.edu">Coptic SCRIPTORIUM</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <!--description of the entire manuscript codex-->
+                    <msIdentifier>
+                        <!--manuscript name corresponds to Tito Orlandi's and the CMCL's catalogue identifiers for White Monastery manuscripts-->
+                        <msName>MONB.EG</msName>
+                        <!--need altidno or other tag for Trismegistos number with link-->
+                    </msIdentifier>
+                    <!--need way to identify that this codex is a copy of the AP-->
+                    <history>
+                        <origin>
+                            <objectType>Codex</objectType>
+                            <country>Egypt</country>
+                            <placeName>Atripe</placeName>
+                            <origPlace>White Monastery</origPlace>
+                            <origDate> </origDate>
+                        </origin>
+                    </history>
+                    <!--information about this fragment at its current repository-->
+                    <msPart>
+                        <msIdentifier>
+                            <repository>Biblioteca Nazionale di Napoli</repository>
+                            <collection>Borgia Collection</collection> 
+                            <idno>IB17 484 f. 23v</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus scheme="EG" from="202" to="202">202</locus>
+                                <locus scheme="ChaineNumbering" from="114" to="114">114</locus>
+                                <textLang mainLang="cop">Sahidic Coptic</textLang>
+                                <incipit></incipit>
+                                <title></title>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <author>Marius<surname>Chaîne</surname></author>
+                        <title level="m">Le manuscrit de la version Copte en dialecte Sahidique des Apophthegmata Patrum</title>.
+                        <pubPlace>Cairo</pubPlace>
+                        <publisher>l’Institut français d’archéologie orientale</publisher>
+                        <date>1960</date>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This file is encoded to comply with EpiDoc Guidelines and Schema.<ref>http://www.stoa.org/epidoc/gl/5</ref></p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <!--need an identifier for SAHIDIC dialect-->
+                <language ident="cop">Sahidic Coptic</language>
+            </langUsage>
+            <creation>
+                <title>Apophthegmata Patrum</title>
+            </creation>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0.1" who="ChristineLuckritzMarquis" when="2014-05-16">diplomatic text annotations, linguistic annotations</change>
+            <change n="1.0.1" who="RebeccaKrawiec" when="2014-05-16">diplomatic text annotations, linguistic annotations</change>
+            <change n="1.0.1" who="CarolineTSchroeder" when="2014-05-16">diplomatic text annotations, linguistic annotations, metadata</change>
+            <change n="1.0.1" who="AmirZeldes" when="2014-05-16">text diplomatic text annotations, linguistic annotations, translation</change>
+        </revisionDesc>
+    </teiHeader><text>
+<body>
+<ab>
+<phr>
+<w type="APST" lemma="ⲁ">
+ⲁ</w>
+<w type="PPERS" lemma="ϥ">
+ϥ</w>
+<w type="V" lemma="ⲃⲱⲕ">
+ⲃⲱⲕ</w>
+</phr>
+<phr>
+<w type="PREP" lemma="ⲛ">
+Ⲛ̄</w>
+<w type="N" lemma="ⲟⲩⲟⲉⲓϣ">
+ⲟⲩⲟⲉⲓ̇ϣ</w>
+</phr>
+<phr>
+<w type="PREP" lemma="ⲉ">
+ⲉ</w>
+<w type="NPROP" lemma="ϣⲓⲏⲧ">
+ϣⲓ̇ⲏⲧ</w>
+</phr>
+<phr>
+<w type="PTC" lemma="ⲛϭⲓ">
+ⲛ̄ϭⲓ</w>
+<w type="ART" lemma="ⲡ">
+ⲡ</w>
+<w type="N" lemma="ⲙⲁⲕⲁⲣⲓⲟⲥ" xml:lang="Greek">
+ⲙⲁⲕⲁⲣⲓⲟⲥ</w>
+</phr>
+<phr>
+<w type="N" lemma="ⲁⲡⲁ" xml:lang="Hebrew">
+ⲁⲡⲁ</w>
+</phr>
+<phr>
+<w type="NPROP" lemma="ⲑⲉⲱⲫⲓⲗⲟⲥ" xml:lang="Greek">
+ⲑⲉⲱⲫⲓⲗⲟⲥ</w>
+</phr>
+<phr>
+<w type="ART" lemma="ⲡ">
+ⲡ</w>
+<w type="N" lemma="ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ" xml:lang="Greek">
+ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT" lemma="·">
+·</w>
+</phr>
+<phr>
+<w type="APST" lemma="ⲁ">
+ⲁ</w>
+<w type="PPERS" lemma="ⲩ">
+ⲩ</w>
+<w type="V" lemma="ⲥⲱⲟⲩϩ">
+ⲥⲱⲟⲩϩ</w>
+</phr>
+<phr>
+<w type="PTC" lemma="ⲇⲉ" xml:lang="Greek">
+ⲇⲉ</w>
+</phr>
+<phr>
+<w type="PTC" lemma="ⲛϭⲓ">
+ⲛ̇ϭⲓ</w>
+<w type="ART" lemma="ⲛⲉ">
+ⲛⲉ</w>
+<w type="N" lemma="ⲥⲛⲏⲩ">
+ⲥⲛⲏⲩ</w>
+</phr>
+<phr>
+<w type="APST" lemma="ⲁ">
+ⲁ̇</w>
+<w type="PPERS" lemma="ⲩ">
+ⲩ</w>
+<w type="V" lemma="ϫⲟⲟ">
+ϫⲟⲟ</w>
+<w type="PPERO" lemma="ⲥ">
+ⲥ</w>
+</phr>
+<phr>
+<w type="PREP" lemma="ⲛ">
+ⲛ</w>
+<w type="N" lemma="ⲁⲡⲁ" xml:lang="Hebrew">
+ⲁⲡⲁ</w>
+</phr>
+<phr>
+<w type="NPROP" lemma="ⲡⲁⲙⲃⲱ">
+ⲡⲁⲙⲃⲱ</w>
+</phr>
+<phr>
+<w type="CONJ" lemma="ϫⲉ">
+ϫⲉ</w>
+<w type="V" lemma="ⲧⲁⲟⲩⲉ">
+ⲧⲁⲟⲩⲉ</w>
+</phr>
+<phr>
+<w type="ART" lemma="ⲟⲩ">
+ⲟⲩ</w>
+<w type="N" lemma="ϣⲁϫⲉ">
+ϣⲁϫⲉ</w>
+</phr>
+<phr>
+<w type="PREP" lemma="ⲛ">
+ⲛ</w>
+<w type="N" lemma="ⲟⲩⲱⲧ">
+ⲟⲩⲱⲧ</w>
+</phr>
+<phr>
+<w type="PREP" lemma="ⲉ">
+ⲉ</w>
+<w type="ART" lemma="ⲡ">
+ⲡ</w>
+<w type="N" lemma="ⲡⲁⲡⲁⲥ" xml:lang="Greek">
+ⲡⲁⲡⲁⲥ</w>
+</phr>
+<phr>
+<w type="AFUTCONJ" lemma="ⲧⲁⲣⲉ">
+ⲧⲁⲣⲉ</w>
+<w type="PPERS" lemma="ϥ">
+ϥ</w>
+<w type="V" lemma="ϯ">
+ϯ</w>
+<w type="N" lemma="ϩⲏⲩ">
+ϩⲏⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT" lemma="·">
+·</w>
+</phr>
+<phr>
+<w type="VBD" lemma="ⲡⲉϫⲁ">
+ⲡⲉϫⲁ</w>
+<w type="PPERS" lemma="ϥ">
+ϥ</w>
+</phr>
+<phr>
+<w type="PREP" lemma="ⲛⲁ">
+Ⲛ̄ⲁ</w>
+<w type="PPERO" lemma="ⲩ">
+ⲩ</w>
+</phr>
+<phr>
+<w type="PTC" lemma="ⲛϭⲓ">
+ⲛϭⲓ̇</w>
+<w type="ART" lemma="ⲡ">
+ⲡ̇</w>
+<w type="N" lemma="ϩⲗⲗⲟ">
+ϩⲗⲗⲟ</w>
+</phr>
+<phr>
+<w type="CONJ" lemma="ϫⲉ">
+ϫⲉ</w>
+<w type="CONJ" lemma="ⲉϣⲱⲡⲉ">
+ⲉϣⲱⲡⲉ</w>
+</phr>
+<phr>
+<w type="ANEGAOR" lemma="ⲙⲉ">
+ⲙⲉ</w>
+<w type="PPERS" lemma="ϥ">
+ϥ</w>
+<w type="V" lemma="ϯ">
+ϯ</w>
+<w type="N" lemma="ϩⲏⲩ">
+ϩⲏⲩ</w>
+</phr>
+<phr>
+<w type="PREP" lemma="ⲉ">
+ⲉ</w>
+<w type="PPOS" lemma="ⲡⲉⲛ">
+ⲡⲉⲛ</w>
+<w type="N" lemma="ⲕⲁⲣⲱϥ">
+ⲕⲁⲣⲱϥ</w>
+</phr>
+<phr>
+<w lemma="·">
+·</w>
+</phr>
+<phr>
+<w type="PTC" lemma="ⲉⲓⲉ">
+ⲉⲓⲉ</w>
+</phr>
+<phr>
+<w type="ACOND_PPERS" lemma="ⲉⲛϣⲁⲛ">
+ⲉⲛϣⲁⲛ</w>
+<w type="V" lemma="ϣⲁϫⲉ">
+ϣⲁϫⲉ</w>
+</phr>
+<phr>
+<w type="ADV" lemma="ⲟⲛ">
+ⲟ̇ⲛ</w>
+</phr>
+<phr>
+<w type="NEG" lemma="ⲛ">
+ⲛ</w>
+<w type="PPERS" lemma="ϥ">
+ϥ</w>
+<w type="FUT" lemma="ⲛⲁ">
+ⲛⲁ</w>
+<w type="V" lemma="ϯ">
+ϯ</w>
+<w type="N" lemma="ϩⲏⲩ">
+ϩⲏⲩ</w>
+</phr>
+<phr>
+<w type="NEG" lemma="ⲁⲛ">
+ⲁⲛ</w>
+</phr>
+<phr>
+<w type="PUNCT" lemma="·">
+·</w>
+</phr>
+</ab>
+</body>
+</text>
+</TEI>
